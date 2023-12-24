@@ -270,13 +270,13 @@ const faqs = [
 ];
 
 
-const FAQ = () => {
+const OOC1 = () => {
   return (
       <div className="mx-auto max-w-4xl ">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10  dark:divide-gray-600">
-          <h className="text-lg font-bold leading-10 tracking-tight text-gray-900 dark:text-white">
+          {/* <h className="text-lg font-bold leading-10 tracking-tight text-gray-900 dark:text-white">
           Руководящие документы
-          </h>
+          </h> */}
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10 dark:divide-gray-600">
             {faqs.map((faq, index) => (
               <Disclosure key={index} as="div" className="pt-6">
@@ -315,4 +315,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default OOC1;
